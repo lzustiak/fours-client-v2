@@ -1,0 +1,28 @@
+:root {
+  --red: #ff5964;
+  --yellow: #fbec8a;
+  --blue: #35a7ff;
+  --grey-light: #f1f1f1;
+  --grey: #cccccc;
+  --grey-dark: #5f5f5f;
+  --black: #171717;
+  --white: #ffffff;
+
+  --primary-shadow: 0 2px 24px rgba(15, 15, 15, 0.33);
+  --red-shadow: -4px 8px 24px rgba(255, 89, 100, 0.5);
+  --yellow-shadow: 0 2px 24px rgba(255, 231, 76, 0.5);
+
+  --primary: #000000;
+  --secondary: #ffffff;
+  --accent: #cdcdcd;
+  --background: #ffffff;
+
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
+  --text-accent: #cdcdcd;
+  --text-hover: var(--accent);
+
+  --btn-default: var(--grey-light);
+  --btn-primary: var(--black);
+  --btn-secondary: var(--white);
+}
