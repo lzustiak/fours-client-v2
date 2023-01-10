@@ -16,18 +16,23 @@ function Button(props: Props) {
     onClick,
     children,
     variant = "contained",
-    color = "default",
+    color = "primary",
     disabled,
     fullWidth,
   } = props;
 
-  const classProps = classNames(styles.button, styles[variant], styles[color], {
-    [styles.disabled]: disabled,
-    [styles.fullWidth]: fullWidth,
-  });
+  const buttonProps = classNames(
+    styles.button,
+    styles[variant],
+    styles[color],
+    {
+      [styles.disabled]: disabled,
+      [styles.fullWidth]: fullWidth,
+    },
+  );
 
   return (
-    <button className={classProps} onClick={onClick} disabled={disabled}>
+    <button className={buttonProps} onClick={onClick} disabled={disabled}>
       <span>{children}</span>
     </button>
   );
